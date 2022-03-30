@@ -4,7 +4,7 @@ name:
   first: Mahdi
   last: Farhang
 
-position: Developer
+position: Fullstack Developer
 
 contacts:
   phone: "+989127234910"
@@ -17,13 +17,20 @@ contacts:
 
 profile: Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloremque fugit suscipit, quidem velit, laboriosam mollitia ducimus animi maxime, libero perspiciatis architecto. Sint magnam numquam tenetur temporibus ab cum omnis ipsum!
 
-skills:
-- "Skill #1"
-- "Skill #2"
-- "Skill #3"
-- "Skill #4"
-- "Skill #5"
-- "Skill #6"
+categories:
+  - name: Languages
+    skills:
+      - name: English
+        level: 80
+
+      - name: Persian
+        level: 100
+
+  - "Skill #2"
+  - "Skill #3"
+  - "Skill #4"
+  - "Skill #5"
+  - "Skill #6"
 
 experience:
 - workPosition: Work position

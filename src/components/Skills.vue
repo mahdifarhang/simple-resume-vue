@@ -1,10 +1,15 @@
 <template>
-  <Title :text="skillsLabel" />
-  <SubTitle text="Something" />
+  <Title :text="skillsLabel"/>
 
-  <div class="skill-line" v-for="(skill, index) in skills" :key="index">
-    <img class="circle" src="@/assets/circle.svg" />
-    <Paragraph class="contact" :text="skill" />
+
+  <div v-for="(category, index) in categories" :key="index">
+    <SubTitle :text="category.name"/>
+
+    <div v-for="(skill, i) in category.skills" :key="i" class="skill-line">
+      <img class="circle" src="@/assets/circle.svg"/>
+      <Paragraph :text="skill.name" class="contact"/>
+      <Paragraph :text="skill.level" class="contact"/>
+    </div>
   </div>
 </template>
 
@@ -31,8 +36,8 @@ export default {
       return this.resumeLabels.skills;
     },
 
-    skills() {
-      return this.currentLanguage.data.skills;
+    categories() {
+      return this.currentLanguage.data.categories;
     }
   }
 };
