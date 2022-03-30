@@ -12,9 +12,11 @@
       <Paragraph class="contact" :text="email" />
     </a>
   </div>
-  <div v-if="email" class="contact-line">
-    <img src="@/assets/linkedin.svg" />
-    <Paragraph class="contact" :text="linkedIn" />
+  <div class="contact-line">
+    <a v-if="linkedIn" class="nav-link nav-social" style="text-decoration: none; margin: 4px;" :href="linkedIn" title="Linked In"><img src="@/assets/linkedin.svg"/></a>
+    <a v-if="telegram" class="nav-link nav-social" style="text-decoration: none; margin: 4px;" :href="telegram" title="Telegram"><img src="@/assets/telegram.svg"/></a>
+    <a v-if="gitlab" class="nav-link nav-social" style="text-decoration: none; margin: 4px;" :href="gitlab" title="Gitlab"><img src="@/assets/gitlab.svg"/></a>
+    <a v-if="github" class="nav-link nav-social" style="text-decoration: none; margin: 4px;" :href="github" title="Github"><img src="@/assets/github.svg"/></a>
   </div>
 </template>
 
@@ -50,6 +52,18 @@ export default {
 
     linkedIn() {
       return this.contacts.linkedIn;
+    },
+
+    telegram() {
+      return this.contacts.telegram;
+    },
+
+    github() {
+      return this.contacts.github;
+    },
+
+    gitlab() {
+      return this.contacts.gitlab;
     },
   },
 };
