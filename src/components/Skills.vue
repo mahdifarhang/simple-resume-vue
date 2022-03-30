@@ -8,7 +8,9 @@
     <div v-for="(skill, i) in category.skills" :key="i" class="skill-line">
       <img class="circle" src="@/assets/circle.svg"/>
       <Paragraph :text="skill.name" class="contact"/>
-      <Paragraph :text="skill.level" class="contact"/>
+      <div style="width: 80%; background-color: #e4e4e6; border-color: #522e13; margin: 1px 0 1px 25px;">
+        <div :style="`width: ${ skill.level }%; height: 30px; background-color: #dacfcb;`"></div>
+      </div>
     </div>
   </div>
 </template>
