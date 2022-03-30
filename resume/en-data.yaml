@@ -29,17 +29,14 @@ experience:
 - workPosition: Work position
   workPeriod: 2019 - 2021
   companyName: Company name
-  description: Lorem ipsum dolor sit amet consectetur, adipisicing elit. Illum omnis iste non soluta, fugit sequi doloribus eos nesciunt distinctio nihil ea labore dolorum? Obcaecati ipsa dolorem consequatur, sapiente illo ut?
 
 - workPosition: Work position
   workPeriod: 2017 - 2019
   companyName: Company name
-  description: Lorem ipsum dolor sit amet consectetur adipisicing elit. Delectus at, veritatis voluptatum esse dolorum aliquid saepe quam animi ipsa? Tempora quod cum repudiandae possimus? Ex labore illum alias ipsum totam.
 
 - workPosition: Work position
   workPeriod: 2015 - 2017
   companyName: Company name
-  description: Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ex ea temporibus ipsa harum. Cumque earum minus debitis doloribus! Nesciunt animi atque ad. Maxime dolor expedita, veritatis aspernatur nisi velit asperiores.
 
 education:
 - degreeTitle: Degree title

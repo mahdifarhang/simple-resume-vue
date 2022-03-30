@@ -1,13 +1,10 @@
 <template>
   <Title :text="experienceLabel" />
   <section class="experience-section" v-for="(experience, index) in experiences" :key="index">
-    <section class="work-position-section">
-      <SubTitle :text="experience.workPosition" />
-      <SubTitle :text="experience.workPeriod" />
-    </section>
+    <SubTitle :text="experience.workPosition"/>
+    <Paragraph :text="experience.workPeriod"/>
 
-    <Headline :text="experience.companyName" />
-    <Paragraph :text="experience.description" />
+    <Headline :text="experience.companyName"/>
   </section>
 </template>
 
@@ -15,12 +12,12 @@
 import Title from "@/components/Title.vue";
 import SubTitle from "@/components/SubTitle.vue";
 import Headline from "@/components/Headline.vue";
-import Paragraph from "@/components/Paragraph.vue";
+import Paragraph from "@/components/Paragraph";
 
 export default {
   Name: "Experience",
 
-  components: { Title, SubTitle, Headline, Paragraph },
+  components: {Paragraph, Title, SubTitle, Headline},
 
   computed: {
     currentLanguage() {
