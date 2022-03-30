@@ -13,10 +13,12 @@
     </a>
   </div>
   <div class="contact-line">
+    <!--  Keep in mind that the size of SVGs should be 24 * 24  -->
     <a v-if="linkedIn" class="nav-link nav-social" style="text-decoration: none; margin: 4px;" :href="linkedIn" title="Linked In"><img src="@/assets/linkedin.svg"/></a>
     <a v-if="telegram" class="nav-link nav-social" style="text-decoration: none; margin: 4px;" :href="telegram" title="Telegram"><img src="@/assets/telegram.svg"/></a>
     <a v-if="gitlab" class="nav-link nav-social" style="text-decoration: none; margin: 4px;" :href="gitlab" title="Gitlab"><img src="@/assets/gitlab.svg"/></a>
     <a v-if="github" class="nav-link nav-social" style="text-decoration: none; margin: 4px;" :href="github" title="Github"><img src="@/assets/github.svg"/></a>
+    <a v-if="twitter" class="nav-link nav-social" style="text-decoration: none; margin: 4px;" :href="twitter" title="Twitter"><img src="@/assets/twitter.svg"/></a>
   </div>
 </template>
 
@@ -64,6 +66,10 @@ export default {
 
     gitlab() {
       return this.contacts.gitlab;
+    },
+
+    twitter() {
+      return this.contacts.twitter;
     },
   },
 };
