@@ -11,7 +11,6 @@ export const languages = [
       profile: "Profile",
       skills: "Skills",
       experience: "Experience",
-      professional: "Professional",
       education: "Education",
     },
   },

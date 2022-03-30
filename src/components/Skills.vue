@@ -1,6 +1,6 @@
 <template>
   <Title :text="skillsLabel" />
-  <SubTitle :text="professionalLabel" />
+  <SubTitle text="Something" />
 
   <div class="skill-line" v-for="(skill, index) in skills" :key="index">
     <img class="circle" src="@/assets/circle.svg" />
@@ -29,10 +29,6 @@ export default {
 
     skillsLabel() {
       return this.resumeLabels.skills;
-    },
-
-    professionalLabel() {
-      return this.resumeLabels.professional;
     },
 
     skills() {
