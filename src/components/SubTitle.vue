@@ -18,7 +18,7 @@ export default {
 <style scoped>
 h2 {
   color: #9f7051;
-  margin: 0 0 1em 0;
+  margin: 0 0 0em 0;
   line-height: 22px;
   letter-spacing: 4px;
   font-size: 14px;

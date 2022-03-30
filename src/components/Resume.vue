@@ -47,13 +47,13 @@ export default {
   grid-template-areas:
     "header header"
     "contacts profile"
-    "skills experience"
-    "education experience"
-    "expertise experience";
+    "experience skills"
+    "education skills"
+    "expertise skills";
 }
 
 .contacts,
-.skills,
+.experience,
 .education,
 .expertise {
   padding: 0px 45px 0 45px;
@@ -61,12 +61,12 @@ export default {
 }
 
 .profile,
-.experience {
+.skills {
   padding: 0px 45px 0 0;
   margin: 0px 0px 45px 0px;
 }
 
-.experience,
+.skills,
 .expertise {
   margin: 0;
 }
@@ -110,8 +110,8 @@ export default {
       "header"
       "contacts"
       "profile"
-      "experience"
       "skills"
+      "experience"
       "education"
       "expertise";
   }
@@ -125,7 +125,6 @@ export default {
   .profile,
   .experience,
   .expertise,
-  .skills,
   .education {
     padding: 0px 20px 0 20px !important;
   }
@@ -136,9 +135,9 @@ export default {
     grid-template-areas:
       "header header"
       "contacts profile"
-      "skills experience"
-      "education experience"
-      "expertise experience";
+      "experience skills"
+      "education skills"
+      "expertise skills";
   }
 }
 </style>
