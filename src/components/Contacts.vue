@@ -2,11 +2,15 @@
   <Title :text="contactsLabel" />
   <div v-if="phoneNumber" class="contact-line">
     <img src="@/assets/phone.svg" />
-    <Paragraph class="contact" :text="phoneNumber" />
+    <a class="nav-link nav-social" style="text-decoration: none;" :href="'tel:+' + phoneNumber" title="Phone Number">
+      <Paragraph class="contact" :text="'+' + phoneNumber" />
+    </a>
   </div>
   <div v-if="email" class="contact-line">
     <img src="@/assets/email.svg" />
-    <Paragraph class="contact" :text="email" />
+    <a class="nav-link nav-social" style="text-decoration: none;" :href="'mailto:' + email" title="Email">
+      <Paragraph class="contact" :text="email" />
+    </a>
   </div>
   <div v-if="email" class="contact-line">
     <img src="@/assets/linkedin.svg" />
