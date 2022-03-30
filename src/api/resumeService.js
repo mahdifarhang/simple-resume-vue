@@ -1,5 +1,5 @@
 import enData from "../../resume/en-data.yaml";
-import ruData from "../../resume/ru-data.yaml";
+// import faData from "../../resume/fa-data.yaml";
 
 export const languages = [
   {
@@ -15,19 +15,19 @@ export const languages = [
       education: "Education",
     },
   },
-  {
-    name: "Русский",
-    code: "ru",
-    data: ruData,
-    resumeLabels: {
-      contacts: "Контакты",
-      profile: "Профиль",
-      skills: "Навыки",
-      experience: "Опыт работы",
-      professional: "Профессиональные",
-      education: "Образование",
-    },
-  },
+  // {
+  //   name: "فارسی",
+  //   code: "fa",
+  //   data: faData,
+  //   resumeLabels: {
+  //     contacts: "اطلاعات تماس",
+  //     profile: "اطلاعات کلی",
+  //     skills: "توانایی ها",
+  //     experience: "تجربه ها",
+  //     professional: "حرفه ای", // TODO
+  //     education: "تحصیلات",
+  //   },
+  // },
 ];
 
 export function getCurrentLanguage() {
