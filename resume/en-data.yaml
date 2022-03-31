@@ -18,19 +18,90 @@ contacts:
 profile: Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloremque fugit suscipit, quidem velit, laboriosam mollitia ducimus animi maxime, libero perspiciatis architecto. Sint magnam numquam tenetur temporibus ab cum omnis ipsum!
 
 categories:
+  - name: Programming Languages
+    skills:
+      - name: C / C++
+        level: 70
+      - name: Python
+        level: 90
+      - name: Java Script
+        level: 90
+      - name: Java
+        level: 60
+      - name: Verilog
+        level: 50
+    others:
+      - Rust
+      - PHP
+      - Typescript
+      - VB
+
+  - name: Backend Web Developement
+    skills:
+      - name: Django
+        level: 80
+      - name: DRF
+        level: 100
+    others:
+      - Flask
+      - FastAPI
+      - Laravel
+      - Spring
+
+  - name: Database
+    skills:
+      - name: SQL
+        level: 80
+    others:
+      - PostgresQL
+      - MySql
+      - MongoDB
+      - Redis
+      - ElasticSearch
+
+  - name: Frontend Web Developement
+    skills:
+      - name: Vue.js
+        level: 70
+      - name: Nuxt.js
+        level: 50
+      - name: HTML / CSS
+        level: 60
+    others:
+      - jquery
+      - Vuetify
+
+  - name: General Skills
+    skills:
+      - name: Agile / Scrum
+        level: 60
+      - name: Git
+        level: 90
+      - name: Docker
+        level: 80
+      - name: Nginx
+        level: 60
+    others:
+      - Software Architecture
+      - Design Patterns
+      - Documentation
+
+  - name: Applications & Tools
+    skills:
+
+    others:
+      - Linux
+      - System Administration
+      - Jetbrains IDEs
+      - Jira
+      - JupyterLab
+
   - name: Languages
     skills:
       - name: English
         level: 80
-
       - name: Persian
         level: 100
-
-  - "Skill #2"
-  - "Skill #3"
-  - "Skill #4"
-  - "Skill #5"
-  - "Skill #6"
 
 experience:
 - workPosition: Work position
